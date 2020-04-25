@@ -15,7 +15,7 @@ brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 
 # Development
-# brew 'php'
+brew 'php'
 # brew 'php@7.3'
 # brew 'php@7.2'
 # brew 'composer'

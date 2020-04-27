@@ -9,8 +9,10 @@ brew 'gh'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
+brew 'hub'
 brew 'httpie'
 brew 'mackup'
+brew 'mas'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 
@@ -39,7 +41,6 @@ cask 'elgato-thunderbolt-dock'
 cask 'fantastical'
 cask 'firefox'
 cask 'folding-at-home'
-cask 'github'
 cask 'gitkraken'
 cask 'google-backup-and-sync'
 cask 'istat-menus'
@@ -50,6 +51,7 @@ cask 'keybase'
 cask 'lastpass'
 cask 'logitech-options'
 cask 'nordvpn'
+cask 'numi'
 cask 'nvidia-geforce-now'
 cask 'parallels'
 cask 'rectangle'
@@ -78,3 +80,6 @@ cask 'qlstephen'
 # cask 'font-source-code-pro'
 # cask 'font-source-sans-pro'
 # cask 'font-source-serif-pro'
+
+mas "Amphetamine", id: 937984704
+mas "Spark", id: 1176895641

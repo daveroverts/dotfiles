@@ -46,7 +46,6 @@ cask 'google-backup-and-sync'
 cask 'istat-menus'
 cask 'iterm2'
 cask 'java'
-cask 'jetbrains-toolbox'
 cask 'keybase'
 cask 'lastpass'
 cask 'logitech-options'
@@ -62,6 +61,7 @@ cask 'transmit'
 cask 'vagrant'
 cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
+cask 'visual-studio-code'
 cask 'vlc'
 
 # Quicklook

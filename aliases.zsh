@@ -3,25 +3,13 @@ alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
-alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
-alias lara="sites && cd laravel/"
-
-# Laravel
-alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
-alias seed="php artisan db:seed"
-
-# PHP
-alias php73="/usr/local/Cellar/php@7.3/7.3.13/bin/php"
-alias php72="/usr/local/Cellar/php@7.2/7.2.26/bin/php"
-alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias sites="cd $HOME/code"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"

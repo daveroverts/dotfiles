@@ -1,6 +1,6 @@
 # Taps
 tap 'homebrew/cask'
-# tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-fonts'
 
 # Binaries
 brew 'bat' # "cat" on steroids
@@ -71,6 +71,7 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-fira-code'
 # cask 'font-lato'
 # cask 'font-open-sans'
 # cask 'font-roboto'
@@ -82,3 +83,4 @@ cask 'qlstephen'
 
 mas "Amphetamine", id: 937984704
 mas "Spark", id: 1176895641
+mas "Sequel Ace", id: 1518036000

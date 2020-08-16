@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
+tap 'buo/cask-upgrade'
 
 # Binaries
 brew 'bat' # "cat" on steroids

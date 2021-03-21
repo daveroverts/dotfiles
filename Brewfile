@@ -2,6 +2,7 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'buo/cask-upgrade'
+tap 'homebrew/bundle'
 
 # Binaries
 brew 'bat' # "cat" on steroids
@@ -14,6 +15,7 @@ brew 'hub'
 brew 'httpie'
 brew 'mackup'
 brew 'mas'
+brew 'pkg-config'
 brew 'poetry'
 brew 'pyenv'
 brew 'trash' # Manage the Trash bin
@@ -51,16 +53,11 @@ cask 'lastpass'
 cask 'logitech-options'
 cask 'notion'
 cask 'nordvpn'
-cask 'parallels'
 cask 'rectangle'
-cask 'steam'
 cask 'tableplus'
 cask 'the-unarchiver'
 cask 'turbo-boost-switcher'
 cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'vlc'
 
@@ -83,5 +80,4 @@ cask 'font-fira-code'
 # cask 'font-source-serif-pro'
 
 mas "Amphetamine", id: 937984704
-mas "Spark", id: 1176895641
 mas "Sequel Ace", id: 1518036000

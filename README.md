@@ -41,13 +41,6 @@ Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
 
-### Visual Studio Code
-
-I use [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to keep my settings/extensions/etc. in sync. 
-
-1. Install [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) (`ext install code-settings-sync`)
-2. Use this gist (or login to use your own) https://gist.github.com/daveroverts/bf90f0f3450dd43ed7cfd2b6620d1f0f
-
 ## Your Own Dotfiles
 
 **Please note that the instructions below assume you already have set up Oh My Zsh so make sure to first [install Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started) before you continue.**

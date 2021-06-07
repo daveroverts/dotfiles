@@ -1,5 +1,5 @@
 # Shortcuts
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
@@ -11,25 +11,26 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/code"
 
+# Laravel
+alias a="php artisan"
+alias fresh="php artisan migrate:fresh --seed"
+alias seed="php artisan db:seed"
+
+# PHP
+alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias php74="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:7.4"
+alias php8="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:8.0"
+alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
+
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
 
-# Vagrant
-alias v="vagrant global-status"
-alias vup="vagrant up"
-alias vhalt="vagrant halt"
-alias vssh="vagrant ssh"
-alias vreload="vagrant reload"
-alias vrebuild="vagrant destroy --force && vagrant up"
-
 # Docker
 alias docker-composer="docker-compose"
-#alias dstop="docker stop $(docker ps -a -q)"
-#alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
-#alias dpurgeimages="docker rmi $(docker images -q)"
-#dbuild() { docker build -t=$1 .; }
-#dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+
+# SQL Server
+alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
 # Git
 alias gst="git status"

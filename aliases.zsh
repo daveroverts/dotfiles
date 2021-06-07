@@ -13,6 +13,7 @@ alias sites="cd $HOME/code"
 
 # Laravel
 alias a="php artisan"
+alias art="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 
@@ -28,9 +29,6 @@ alias watch="npm run watch"
 
 # Docker
 alias docker-composer="docker-compose"
-
-# SQL Server
-alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
 # Git
 alias gst="git status"

@@ -13,7 +13,6 @@ brew 'gh'
 brew 'git'
 brew 'gnupg'
 brew 'grep'
-brew 'hub'
 brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
@@ -38,9 +37,12 @@ brew 'node'
 # Apps
 cask '1password'
 cask '1password-cli'
+cask "adguard"
 cask 'alfred'
-cask 'dbngin'
+cask "anydesk"
+cask "barrier"
 cask 'brave-browser'
+cask 'dbngin'
 cask 'discord'
 cask 'docker'
 cask 'dropbox'
@@ -49,17 +51,19 @@ cask 'fantastical'
 cask 'figma'
 cask 'firefox'
 cask 'gitkraken'
-cask 'google-backup-and-sync'
+cask 'google-drive'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'iterm2'
+cask 'keepassxc'
 cask 'keybase'
 cask 'logitech-options'
-cask 'notion'
 cask 'nordvpn'
+cask 'notion'
 cask 'rectangle'
 cask 'phpmon'
 cask 'slack'
+cask 'spotofy'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
@@ -71,11 +75,15 @@ cask 'vlc'
 cask 'whatsapp'
 
 # Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
 
 # Fonts
 cask 'font-fira-code'
+cask "font-jetbrains-mono"
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -86,3 +94,4 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas "Amphetamine", id: 937984704
+mas "PiPer", id: 1421915518

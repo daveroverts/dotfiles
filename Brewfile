@@ -1,8 +1,8 @@
 # Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
 tap 'buo/cask-upgrade'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
@@ -21,8 +21,6 @@ brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 
 # Development
-brew 'php'
-brew 'php@7.4'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
@@ -31,16 +29,18 @@ brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
+brew 'php'
+brew 'php@7.4'
 # brew 'redis'
 # brew 'yarn'
 
 # Apps
-cask '1password'
 cask '1password-cli'
-cask "adguard"
+cask '1password'
+cask 'adguard'
 cask 'alfred'
-cask "anydesk"
-cask "barrier"
+cask 'anydesk'
+cask 'barrier'
 cask 'brave-browser'
 cask 'dbngin'
 cask 'discord'
@@ -60,8 +60,8 @@ cask 'keybase'
 cask 'logitech-options'
 cask 'nordvpn'
 cask 'notion'
-cask 'rectangle'
 cask 'phpmon'
+cask 'rectangle'
 cask 'slack'
 cask 'spotofy'
 cask 'tableplus'
@@ -75,15 +75,15 @@ cask 'vlc'
 cask 'whatsapp'
 
 # Quicklook
-cask "qlcolorcode"
-cask "qlmarkdown"
-cask "qlstephen"
-cask "quicklook-csv"
-cask "quicklook-json"
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
 
 # Fonts
 cask 'font-fira-code'
-cask "font-jetbrains-mono"
+cask 'font-jetbrains-mono'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -93,5 +93,5 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas "Amphetamine", id: 937984704
-mas "PiPer", id: 1421915518
+mas 'Amphetamine', id: 937984704
+mas 'PiPer', id: 1421915518

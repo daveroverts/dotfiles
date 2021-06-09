@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'shivammathur/php' # For the rare moments I need PHP 5.6
 
 # Binaries
 brew 'awscli'
@@ -17,6 +18,7 @@ brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 
@@ -64,7 +66,7 @@ cask 'obsidian'
 cask 'phpmon'
 cask 'rectangle'
 cask 'slack'
-cask 'spotofy'
+cask 'spotify'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'

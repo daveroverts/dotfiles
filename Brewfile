@@ -7,13 +7,13 @@ tap 'nicoverbruggen/homebrew-cask'
 tap 'shivammathur/php' # For the rare moments I need PHP 5.6
 
 # Binaries
-brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'gh'
 brew 'git'
 brew 'gnupg'
 brew 'grep'
+brew 'htop'
 brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
@@ -21,6 +21,13 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
+
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
 
 # Development
 brew 'composer'
@@ -33,8 +40,8 @@ brew 'nginx'
 brew 'node'
 brew 'php'
 brew 'php@7.4'
-# brew 'redis'
-# brew 'yarn'
+brew 'redis'
+brew 'yarn'
 
 # Apps
 cask '1password-cli'
@@ -56,6 +63,7 @@ cask 'gitkraken'
 cask 'google-drive'
 cask 'gpg-suite'
 cask 'imageoptim'
+cask 'intel-power-gadget'
 cask 'iterm2'
 cask 'keepassxc'
 cask 'keybase'

@@ -83,6 +83,7 @@ cask 'transmit'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
+cask 'wkhtmltopdf'
 
 # Quicklook
 cask 'qlcolorcode'

@@ -44,7 +44,12 @@ If you did all of the above you may now follow these install instructions to set
     git clone git@github.com:daveroverts/dotfiles.git ~/.dotfiles
     ```
 
-3. Run `~/.dotfiles/install.sh` to start the installation
+3. Run the installation with:
+
+    ```zsh
+    ~/.dotfiles/install.sh
+    ```
+
 4. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
 5. Restart your computer to finalize the process
 
